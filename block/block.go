@@ -15,7 +15,7 @@ import (
 //生成区块
 type Block struct {
     Timestamp     int64
-	//Data          []byte
+	Data          []byte
 	
     PrevBlockHash []byte
 	Hash          []byte
